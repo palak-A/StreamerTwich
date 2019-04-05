@@ -30,4 +30,3 @@ For Mysql , we can have two servers (Primary Server and Secodary Server) for han
 
 Where do you see bottlenecks in your proposed architecture and how would you approach scaling this app starting from 100 reqs/day to 900MM reqs/day over 6 months?
 Answer: Currently i have proposed the architecture with two instances. we can choose auto scaling here to support growing request and also we can add more load balancers if required, so that there is no single point of failure for load balancers as well.
-
